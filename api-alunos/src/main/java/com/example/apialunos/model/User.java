@@ -6,12 +6,14 @@ import lombok.Setter;
 
 
 @Entity
+@Table(name = "users")
 public class User {
 
     @Getter
     @Id
-        @GeneratedValue
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
             private Long id;
+
 
     //Getters e Setters
 
@@ -22,6 +24,7 @@ public class User {
     @Setter // setter for email
         @Getter
     private String email;
+
 
     public User() {}
 
