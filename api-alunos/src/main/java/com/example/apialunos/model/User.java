@@ -3,34 +3,30 @@ package com.example.apialunos.model;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import jakarta.validation.constraints.NotBlank;
+
 
 
 @Entity
 @Table(name = "users")
+@Getter
+@Setter
 public class User {
 
-    @Getter
     @Id
-        @GeneratedValue(strategy = GenerationType.IDENTITY)
-            private Long id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-
-    //Getters e Setters
-
-    @Setter // setter for name
-        @Getter
+    @NotBlank(message = "Name is required")
     private String name;
 
-    @Setter // setter for email
-        @Getter
+    @NotBlank(message = "Email is required")
     private String email;
-
 
     public User() {}
 
     public User(String name, String email){
         this.name = name;
         this.email = email;
-
     }
 }
