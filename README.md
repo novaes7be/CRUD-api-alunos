@@ -90,6 +90,7 @@ Base URL:
 http://localhost:8080
 ```
 
+---
 
 
 Endpoints disponíveis
