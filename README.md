@@ -10,10 +10,10 @@ A proposta foi criar uma API simples, porém estruturada, capaz de realizar oper
 
 Construir uma API backend completa que permita:
 
-•⁠  ⁠Criar usuários
-•⁠  ⁠Listar usuários
-•⁠  ⁠Atualizar usuários
-•⁠  ⁠Excluir usuários
+•⁠  ⁠Criar usuários  
+•⁠  ⁠Listar usuários  
+•⁠  ⁠Atualizar usuários  
+•⁠  ⁠Excluir usuários  
 
 Além disso, o projeto foi pensado para:
 
@@ -26,14 +26,14 @@ Além disso, o projeto foi pensado para:
 
 ##  Tecnologias utilizadas
 
-•⁠  ⁠Java 17+
-•⁠  ⁠Spring Boot
-•⁠  ⁠Spring Web
-•⁠  ⁠Spring Data JPA
-•⁠  ⁠PostgreSQL
-•⁠  ⁠MongoDB
-•⁠  ⁠Docker / Docker Compose
-•⁠  ⁠Maven
+•⁠  ⁠Java 17+  
+•⁠  ⁠Spring Boot  
+•⁠  ⁠Spring Web  
+•⁠  ⁠Spring Data JPA  
+•⁠  ⁠PostgreSQL  
+•⁠  ⁠MongoDB  
+•⁠  ⁠Docker / Docker Compose  
+•⁠  ⁠Maven  
 
 ---
 
