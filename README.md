@@ -65,11 +65,14 @@ cd api-alunos
 ```bash
    docker compose up -d
 ```
- Isso irá subir:
-  PostgreSQL → porta 5433
-  MongoDB → porta 27018
-  Mongo Express → porta 8083
-   ./mvnw spring-boot:run
+ Isso irá subir:  
+  - PostgreSQL → porta 5433  
+  - MongoDB → porta 27018  
+  - Mongo Express → porta 8083
+    
+```bash  
+    ./mvnw spring-boot:run
+```
 
 3.⁠ ⁠Rodar a aplicação
 
