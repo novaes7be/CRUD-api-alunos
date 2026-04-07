@@ -10,7 +10,7 @@ import lombok.Setter;
 @Getter
 public class UserRequestDTO {
 
-    @NotBlank(message = "Nome é obrigatório")
+    @NotBlank(message = "Name is obrigatory")
     @JsonProperty("name")
     private String name;
 

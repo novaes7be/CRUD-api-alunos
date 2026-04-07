@@ -1,0 +1,46 @@
+# JAVA / SPRING BOOT
+target/
+*.jar
+*.war
+*.ear
+*.log
+logs/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# SISTEMA
+.DS_Store
+Thumbs.db
+
+# SEGURANÇA
+.env
+application-local.properties
+application-dev.properties
+
+# DOCKER / DADOS
+data/
+db-data/
+postgres-data/
+mongo-data/
+
+# FRONT
+node_modules/
+dist/
+build/
+
+# TEMP
+tmp/
+temp/
+
+# OUTROS
+*.zip
+*.tar
+*.gz
+*.bak
+*.swp

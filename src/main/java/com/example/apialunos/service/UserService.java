@@ -23,7 +23,7 @@ public class UserService {
 
     public User SearchForId(Long id) {
         return repository.findById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("User não encontrado"));
+                .orElseThrow(() -> new ResourceNotFoundException("User not found"));
     }
 
     public User create(UserRequestDTO dto) {
