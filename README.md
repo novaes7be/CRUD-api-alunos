@@ -74,7 +74,7 @@ cd api-alunos
     ./mvnw spring-boot:run
 ```
 
-3.⁠ ⁠Rodar a aplicação
+### 3.⁠ ⁠Rodar a aplicação
 
 ```bash
   ./mvnw spring-boot:run
@@ -84,7 +84,7 @@ cd api-alunos
 mvn spring-boot:run
 ```
 
-4.⁠ ⁠Acessar a API
+### 4.⁠ ⁠Acessar a API
 Base URL:
 ```bash
 http://localhost:8080
@@ -93,7 +93,7 @@ http://localhost:8080
 ---
 
 
-Endpoints disponíveis
+### Endpoints disponíveis
   Criar usuário
 ```bash
 POST /users
@@ -125,7 +125,7 @@ DELETE /users/{id}
 
 ---
 
-  Testes da API
+### Testes da API
 A API pode ser testada utilizando:  
 - Insomnia  
 - Postman  
@@ -133,7 +133,7 @@ A API pode ser testada utilizando:
 
 ---
 
-  Configurações sensíveis  
+### Configurações sensíveis  
 As credenciais de banco são armazenadas em:
 ```bash
 .env
@@ -146,7 +146,7 @@ Um exemplo de configuração está disponível em:
 
 ---
 
-  Evoluções futuras  
+### Evoluções futuras  
 Este projeto pode evoluir para incluir:  
 - Autenticação com JWT  
 - Documentação com Swagger  
