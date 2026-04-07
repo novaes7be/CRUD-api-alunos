@@ -52,7 +52,7 @@ O projeto segue uma separação clássica de camadas:
 
 ---
 
-## ⚙️ Como rodar o projeto
+## Como rodar o projeto
 
 ### 1. Clonar o repositório
 
@@ -122,12 +122,18 @@ PUT /users/{id}
 ```bash
 DELETE /users/{id}
 ```
+
+---
+
   Testes da API
-A API pode ser testada utilizando:
-Insomnia
-Postman
-curl
-  Configurações sensíveis
+A API pode ser testada utilizando:  
+- Insomnia  
+- Postman  
+- curl  
+
+---
+
+  Configurações sensíveis  
 As credenciais de banco são armazenadas em:
 ```bash
 .env
@@ -137,12 +143,15 @@ Um exemplo de configuração está disponível em:
 ```bash
 .env.example
 ```
-  Evoluções futuras
-Este projeto pode evoluir para incluir:
-Autenticação com JWT
-Documentação com Swagger
-Testes automatizados
-Deploy em nuvem (AWS / Railway / Render)
-CI/CD
-  Autor
-Projeto desenvolvido com foco em aprendizado prático de backend e construção de base sólida em Java + Spring Boot.
+
+---
+
+  Evoluções futuras  
+Este projeto pode evoluir para incluir:  
+- Autenticação com JWT  
+- Documentação com Swagger  
+- Testes automatizados  
+- Deploy em nuvem (AWS / Railway / Render)  
+- CI/CD  
+
+
