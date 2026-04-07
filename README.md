@@ -37,7 +37,7 @@ Além disso, o projeto foi pensado para:
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 O projeto segue uma separação clássica de camadas:
   controller → recebe requisições HTTP
@@ -79,3 +79,58 @@ cd api-alunos
 ```bash
 mvn spring-boot:run
 ```
+
+4.⁠ ⁠Acessar a API
+Base URL:
+
+http://localhost:8080
+
+
+
+
+Endpoints disponíveis
+🔹 Criar usuário
+
+POST /users
+Exemplo:
+JSON
+{
+  "name": "João",
+  "email": "joao@email.com"
+}
+🔹 Listar usuários
+
+GET /users
+🔹 Buscar por ID
+
+GET /users/{id}
+🔹 Atualizar usuário
+
+PUT /users/{id}
+🔹 Deletar usuário
+
+DELETE /users/{id}
+🧪 Testes da API
+A API pode ser testada utilizando:
+Insomnia
+Postman
+curl
+🔐 Configurações sensíveis
+As credenciais de banco são armazenadas em:
+
+.env
+Esse arquivo não é versionado por segurança.
+Um exemplo de configuração está disponível em:
+
+.env.example
+📈 Evoluções futuras
+Este projeto pode evoluir para incluir:
+Autenticação com JWT
+Documentação com Swagger
+Testes automatizados
+Deploy em nuvem (AWS / Railway / Render)
+CI/CD
+👨‍💻 Autor
+Projeto desenvolvido com foco em aprendizado prático de backend e construção de base sólida em Java + Spring Boot.
+💡 Observação
+Este projeto representa uma etapa inicial, mas já segue princípios importantes de organização, separação de responsabilidades e boas práticas utilizadas no mercado.
