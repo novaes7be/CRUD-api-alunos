@@ -17,10 +17,10 @@ Construir uma API backend completa que permita:
 
 Além disso, o projeto foi pensado para:
 
-•⁠  ⁠Rodar localmente de forma simples
-•⁠  ⁠Utilizar banco relacional (PostgreSQL)
-•⁠  ⁠Integrar com MongoDB (exploração futura)
-•⁠  ⁠Ser executado com Docker
+•⁠  ⁠Rodar localmente de forma simples  
+•⁠  ⁠Utilizar banco relacional (PostgreSQL)  
+•⁠  ⁠Integrar com MongoDB (exploração futura)  
+•⁠  ⁠Ser executado com Docker  
 
 ---
 
@@ -39,13 +39,14 @@ Além disso, o projeto foi pensado para:
 
 ##  Arquitetura
 
-O projeto segue uma separação clássica de camadas:
-  controller → recebe requisições HTTP
-  service → regras de negócio
-  repository → acesso ao banco
-  model → entidades
-  dto → transferência de dados
-  exception → tratamento global de erros
+O projeto segue uma separação clássica de camadas:  
+
+  •⁠ controller → recebe requisições HTTP  
+  •⁠ service → regras de negócio  
+  •⁠ repository → acesso ao banco  
+  •⁠ model → entidades  
+  •⁠ dto → transferência de dados  
+  •⁠ exception → tratamento global de erros  
   
  Essa estrutura facilita manutenção, testes e evolução.
 
