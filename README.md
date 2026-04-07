@@ -82,55 +82,62 @@ mvn spring-boot:run
 
 4.⁠ ⁠Acessar a API
 Base URL:
-
+```bash
 http://localhost:8080
-
+```
 
 
 
 Endpoints disponíveis
-🔹 Criar usuário
-
+  Criar usuário
+```bash
 POST /users
+```
 Exemplo:
+```bash
 JSON
 {
   "name": "João",
   "email": "joao@email.com"
 }
-🔹 Listar usuários
-
+```
+  Listar usuários
+```bash
 GET /users
-🔹 Buscar por ID
-
+```
+  Buscar por ID
+```bash
 GET /users/{id}
-🔹 Atualizar usuário
-
+```
+  Atualizar usuário
+```bash
 PUT /users/{id}
-🔹 Deletar usuário
-
+```
+  Deletar usuário
+```bash
 DELETE /users/{id}
-🧪 Testes da API
+```
+  Testes da API
 A API pode ser testada utilizando:
 Insomnia
 Postman
 curl
-🔐 Configurações sensíveis
+  Configurações sensíveis
 As credenciais de banco são armazenadas em:
-
+```bash
 .env
+```
 Esse arquivo não é versionado por segurança.
 Um exemplo de configuração está disponível em:
-
+```bash
 .env.example
-📈 Evoluções futuras
+```
+  Evoluções futuras
 Este projeto pode evoluir para incluir:
 Autenticação com JWT
 Documentação com Swagger
 Testes automatizados
 Deploy em nuvem (AWS / Railway / Render)
 CI/CD
-👨‍💻 Autor
+  Autor
 Projeto desenvolvido com foco em aprendizado prático de backend e construção de base sólida em Java + Spring Boot.
-💡 Observação
-Este projeto representa uma etapa inicial, mas já segue princípios importantes de organização, separação de responsabilidades e boas práticas utilizadas no mercado.
